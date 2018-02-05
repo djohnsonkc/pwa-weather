@@ -8,7 +8,7 @@ var app = express();
 //use maxAge to enable caching by the client
 var one_day = 86400000 //or 24 * 60 * 60 * 1000
 var thirty_days = 2592000000
-app.use(express.static(__dirname + '/work', { maxAge: thirty_days })) //using 30 days gets a better YSlow score
+app.use(express.static(__dirname + '/work', { maxAge: 0 })) //using 30 days gets a better YSlow score
 
 
 //********************************************************************************
