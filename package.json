@@ -1,0 +1,24 @@
+{
+  "name": "pwa-weather",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
+  "description": "Progressive Web App Tutorial",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^3.21.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djohnsonkc/pwa-weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/djohnsonkc/pwa-weather.git"
+}
